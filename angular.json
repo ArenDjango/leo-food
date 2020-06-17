@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "leo-food"
+    }
+  },
+  "defaultProject": "leo-food",
+  "cli": {
+    "analytics": false
+  }
 }
