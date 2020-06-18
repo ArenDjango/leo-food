@@ -4,11 +4,11 @@
   text-decoration: none;
 }
 app-root{
-  max-width: 480px;
-  margin: 0 auto;
-  border:1px solid silver;
-  height: auto;
-  min-height: 100vh;
+  /*max-width: 480px;*/
+  /*margin: 0 auto;*/
+  /*border:1px solid silver;*/
+  /*height: auto;*/
+  /*min-height: 100vh;*/
 }
 
 /*app-root, .section {*/

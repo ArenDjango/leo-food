@@ -1,0 +1,64 @@
+
+.section{
+  --background: url('../../../assets/images/background.png');
+  --padding-bottom: 188px;
+  --padding-end: 225px;
+  --padding-start: 225px;
+  --padding-top: 20%;
+  text-align: center;
+  .image{
+    width: 80%;
+    margin-left: 17%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title{
+    margin: 61px auto 123px auto;
+    width: 80%;
+    .title-image{
+      width: 100%;
+    }
+  }
+}
+.btns{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  a{
+    //border-radius: 15px;
+    //margin: 0 auto 61px auto;
+    //padding: 6% 20%;
+    //display: block;
+    //text-decoration: none;
+    //font-size: 41px;
+  }
+  .sign-in{
+    font-size: 41px;
+    height: 130px;
+    margin-bottom: 61px;
+    --border-radius: 15px;
+  }
+  .sign-up{
+    font-size: 41px;
+    height: 130px;
+    --border-radius: 15px;
+    margin-bottom: 74px;
+  }
+}
+.login-sicialite{
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 9%;
+}
+.socialites{
+  width: 100%;
+  display: flex;
+  .image{
+    display: block;
+    width: 142px;
+    height: 142px;
+    margin: 0 auto;
+  }
+}
