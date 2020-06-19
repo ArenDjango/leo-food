@@ -1,0 +1,65 @@
+<ion-header class="header">
+
+
+  <ion-toolbar color="primary">
+    <ion-title size="large">
+      <p class="ion-title-p">Ваши данные</p>
+    </ion-title>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content class="section">
+
+  <div class="image">
+    <img src="../../../assets/images/avatar.png" alt="">
+  </div>
+
+  <p class="title">
+    Александр Константинов
+  </p>
+  <p class="label">Страна</p>
+  <div class="select-item">
+    <ion-select value="1">
+      <ion-select-option value="1"> Российская Федерация
+      </ion-select-option>
+      <ion-select-option value="2"> США
+      </ion-select-option>
+    </ion-select>
+  </div>
+  <ion-item></ion-item>
+  <p class="label">Область</p>
+  <div class="select-item">
+    <ion-select value="1" >
+      <ion-select-option value="1"> Московская
+      </ion-select-option>
+      <ion-select-option value="2"> СПТ
+      </ion-select-option>
+    </ion-select>
+  </div>
+  <ion-item></ion-item>
+  <p class="label">Город</p>
+  <div class="select-item">
+    <ion-select value="1" placeholder="Выберите город">
+      <ion-select-option value="1"> Выберите город
+      </ion-select-option>
+      <ion-select-option value="2"> СПТ
+      </ion-select-option>
+    </ion-select>
+  </div>
+  <ion-item></ion-item>
+  <div>
+    <p class="label">Адрес</p>
+    <ion-item class="password-item">
+      <ion-input placeholder="Введите вдрес" type="text"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-col class="input-col"><p class="label">Дом</p><ion-input placeholder="№ Дома" type="text"></ion-input></ion-col>
+      <ion-col class="input-col"><p class="label">Подъезд</p><ion-input placeholder="№ Подъезда" type="text"></ion-input></ion-col>
+    </ion-item>
+  </div>
+
+  <ion-button routerLink="/dashboard" class="sign-in"  expand="block" color="warning" size="large">
+    <p style="color: #fff; font-weight: bold;">ЗАРЕГИСТРИРОВАТЬСЯ</p>
+  </ion-button>
+
+</ion-content>

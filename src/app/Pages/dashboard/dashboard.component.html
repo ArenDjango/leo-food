@@ -1,0 +1,166 @@
+
+  <ion-header class="header">
+    <ion-toolbar color="none">
+      <ion-item class="search-bar-top" lines="none">
+        <ion-col size="10"><ion-searchbar placeholder="Поиск" showCancelButton="never"></ion-searchbar></ion-col>
+        <ion-col size="2"><img class="avatar" src="../../../assets/images/avatar.png" alt=""></ion-col>
+      </ion-item>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="section">
+    <ion-slides [options]="config">
+      <ion-slide>
+        <img src="../../../assets/images/slider.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../../assets/images/slider.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../../assets/images/slider.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../../assets/images/slider.png">
+      </ion-slide>
+    </ion-slides>
+    <div class="swiper-pagination"></div>
+
+    <ion-item lines="none">
+      <div class="title-item">
+        <p>Сетевые заведения</p>
+        <ion-nav-link class="nav-link">ВСЕ</ion-nav-link>
+      </div>
+    </ion-item>
+    <ion-item class="slder2">
+      <ion-slides [options]="config2">
+        <ion-slide class="slide-2">
+          <img src="../../../assets/images/burder_king.png">
+          <h2 class="slider-text">BurgerKing</h2>
+        </ion-slide>
+        <ion-slide class="slide-2">
+          <img src="../../../assets/images/burder_king.png">
+          <h2 class="slider-text">BurgerKing</h2>
+        </ion-slide>
+        <ion-slide class="slide-2">
+          <img src="../../../assets/images/burder_king.png">
+          <h2 class="slider-text">BurgerKing</h2>
+        </ion-slide>
+        <ion-slide class="slide-2">
+          <img src="../../../assets/images/burder_king.png">
+          <h2 class="slider-text">BurgerKing</h2>
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+
+    <ion-item lines="none">
+      <div class="title-item">
+        <p>Кухнья</p>
+        <ion-nav-link routerLink="/all-kitchen" class="nav-link">ВСЕ</ion-nav-link>
+      </div>
+    </ion-item>
+    <ion-item class="slder3">
+      <ion-slides [options]="config3">
+        <ion-slide class="slide-3">
+          <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+        </ion-slide>
+        <ion-slide class="slide-3">
+          <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+        </ion-slide>
+        <ion-slide class="slide-3">
+          <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+        </ion-slide>
+        <ion-slide class="slide-3">
+          <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+
+    <ion-item class="slder4">
+      <ion-slides [options]="config4">
+        <ion-slide class="slide-4">
+          <img src="../../../assets/images/slide4.png" alt="">
+          <h2 class="slider-text">BurgerKing</h2>
+          <p class="slide-4-description">Азиатский ресторан Novikov
+            Group в «Москва-сити»</p>
+          <p class="slide-4-category">
+            <ion-icon name="restaurant-outline"></ion-icon>
+            Азиатская
+          </p>
+          <ion-item lines="none" class="bottom-slide-card">
+            <ion-col class="rating-slider-4"><ion-icon name="star"></ion-icon> 10</ion-col>
+            <ion-col class="price-slider-4">₽ 2300</ion-col>
+            <ion-col class="save-slider-4"><ion-icon name="bookmark-outline"></ion-icon></ion-col>
+          </ion-item>
+        </ion-slide>
+        <ion-slide class="slide-4">
+          <img src="../../../assets/images/slide4.png" alt="">
+          <h2 class="slider-text">BurgerKing</h2>
+          <p class="slide-4-description">Азиатский ресторан Novikov
+            Group в «Москва-сити»</p>
+          <p class="slide-4-category">
+            <ion-icon name="restaurant-outline"></ion-icon>
+            Азиатская
+          </p>
+        </ion-slide>
+        <ion-slide class="slide-4">
+          <img src="../../../assets/images/slide4.png" alt="">
+          <h2 class="slider-text">BurgerKing</h2>
+          <p class="slide-4-description">Азиатский ресторан Novikov
+            Group в «Москва-сити»</p>
+          <p class="slide-4-category">
+            <ion-icon name="restaurant-outline"></ion-icon>
+            Азиатская
+          </p>
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+
+    <ion-item lines="none" class="product-cards-title">
+      <div class="title-item">
+        <p>Популярные блюда</p>
+      </div>
+    </ion-item>
+    <ion-item class="product-cards" lines="none">
+      <div class="card-product">
+        <p class="xit-product-card">ХИТ</p>
+        <div class="image-card">
+          <img src="../../../assets/images/eat.png" alt="">
+        </div>
+        <h2 class="title-product-card">Куриный рулет с мангольдом и
+          жжеными сливками</h2>
+        <p class="type-product-card">360 Restourants</p>
+        <ion-item class="bottom-product-card" lines="none">
+          <ion-col><div class="leftinfo-product">
+            <ion-icon name="pricetag-outline"></ion-icon>
+            <p class="price"><span>₽</span> 790</p>
+          </div></ion-col>
+          <ion-col><p class="size-product-card">340 г</p></ion-col>
+        </ion-item>
+      </div>
+    </ion-item>
+
+    <ion-item class="product-cards" lines="none">
+      <div class="card-product">
+        <p class="xit-product-card">ХИТ</p>
+        <div class="image-card">
+          <img src="../../../assets/images/eat.png" alt="">
+        </div>
+        <h2 class="title-product-card">Куриный рулет с мангольдом и
+          жжеными сливками</h2>
+        <p class="type-product-card">360 Restourants</p>
+        <ion-item class="bottom-product-card" lines="none">
+          <ion-col><div class="leftinfo-product">
+            <ion-icon name="pricetag-outline"></ion-icon>
+            <p class="price"><span>₽</span> 790</p>
+          </div></ion-col>
+          <ion-col><p class="size-product-card">340 г</p></ion-col>
+        </ion-item>
+      </div>
+    </ion-item>
+
+    <ion-button class="sign-up" expand="block" color="warning" size="large" fill="outline">Показать ещё 20</ion-button>
+    <div style="margin-top: 160px"></div>
+    <app-tabbottom></app-tabbottom>
+  </ion-content>
+
+
+
