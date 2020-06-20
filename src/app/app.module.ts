@@ -15,6 +15,12 @@ import { AdressComponent } from './Pages/adress/adress.component';
 import { DashboardComponent } from './Pages/dashboard/dashboard.component';
 import { TabbottomComponent } from './Partials/tabbottom/tabbottom.component';
 import { AllkitchenComponent } from './Pages/allkitchen/allkitchen.component';
+import { SingleComponent } from './Pages/single/single.component';
+import { MenuComponent } from './Partials/menu/menu.component';
+import { SinglemenuComponent } from './Pages/singlemenu/singlemenu.component';
+import { SinglesalesComponent } from './Pages/singlesales/singlesales.component';
+import { SinglereviewsComponent } from './Pages/singlereviews/singlereviews.component';
+import { SinglewritereviewComponent } from './Pages/singlewritereview/singlewritereview.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +33,13 @@ import { AllkitchenComponent } from './Pages/allkitchen/allkitchen.component';
     AdressComponent,
     DashboardComponent,
     TabbottomComponent,
-    AllkitchenComponent
+    AllkitchenComponent,
+    SingleComponent,
+    MenuComponent,
+    SinglemenuComponent,
+    SinglesalesComponent,
+    SinglereviewsComponent,
+    SinglewritereviewComponent
   ],
   imports: [
     BrowserModule,

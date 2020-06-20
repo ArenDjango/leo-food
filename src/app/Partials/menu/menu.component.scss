@@ -1,0 +1,21 @@
+ion-item{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  ion-col{
+    width: 100%;
+    padding: 10px;
+  }
+}
+ion-button{
+  --background: none;
+  --box-shadow: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #c4f2c7;
+  border-bottom: 3px solid transparent;
+}
+.active-menu{
+    color: #fff !important;
+    border-color: #fff;
+}

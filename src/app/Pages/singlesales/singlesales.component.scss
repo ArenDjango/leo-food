@@ -1,0 +1,68 @@
+.header{
+  background-color: #0dca18;
+  height: 285px;
+}
+.section {
+  //--background: url('../../../assets/images/background.png');
+  --padding-bottom: 40px;
+  //--padding-end: 40px;
+  //--padding-start: 40px;
+  --padding-top: 100px;
+  margin-top: 100px;
+  //text-align: center;
+}
+ion-toolbar{
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  background: #0dca18;
+}
+.avatar{
+  width: 115px;
+}
+
+.search-bar-top{
+  width: 96%;
+  margin-left: 30px;
+  --background: #0dca18;
+  ion-button{
+    --box-shadow: none;
+
+  }
+  ion-searchbar{
+    --box-shadow: none;
+    --placeholder-color: #fff;
+    --placeholder-font-style: normal;
+    --placeholder-opacity: 1;
+    --icon-color: #fff;
+    transform: scale(2.8);
+    height: 170px;
+    margin: 0 auto;
+    width: 30%;
+
+    --background: #0ca814;
+    --border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+  }
+}
+
+
+//SLIDER 5
+.sale-card{
+  width: 100%;
+  padding: 40px;
+  img{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}
+.slider-text{
+  font-weight: bold;
+  font-size: 43px !important;
+}
+.label-date{
+  font-size: 40px;
+  color: #666666;
+  text-align: left;
+}

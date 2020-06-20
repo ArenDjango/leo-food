@@ -3,7 +3,7 @@
   <ion-toolbar color="none">
     <ion-item class="search-bar-top" lines="none">
       <ion-col size="1">
-          <ion-button routerLink="/dashboard"><img src="../../../assets/images/icons/back.png" alt=""></ion-button>
+          <ion-button color="none" routerLink="/dashboard"><img src="../../../assets/images/icons/back.png" alt=""></ion-button>
       </ion-col>
       <ion-col size="9"><ion-searchbar placeholder="Поиск" showCancelButton="never"></ion-searchbar></ion-col>
       <ion-col size="2"><img class="avatar" src="../../../assets/images/avatar.png" alt=""></ion-col>
@@ -12,23 +12,76 @@
 </ion-header>
 <ion-content class="section">
 
-  <ion-item class="card">
-    <img src="../../../assets/images/slide4.png" alt="">
-    <h2 class="slider-text">BurgerKing</h2>
-    <p class="slide-4-description">Азиатский ресторан Novikov
-      Group в «Москва-сити»</p>
-    <p class="slide-4-category">
-      <ion-icon name="restaurant-outline"></ion-icon>
-      Азиатская
-    </p>
-    <ion-item lines="none" class="bottom-slide-card">
-      <ion-col class="rating-slider-4"><ion-icon name="star"></ion-icon> 10</ion-col>
-      <ion-col class="price-slider-4">₽ 2300</ion-col>
-      <ion-col class="save-slider-4"><ion-icon name="bookmark-outline"></ion-icon></ion-col>
-    </ion-item>
+  <ion-item class="top-btns" lines="none">
+    <ion-col>
+      <ion-button class="first-btn" color="none"><ion-icon name="filter"></ion-icon> Сортировка</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button class="second-btn" color="none"><ion-icon name="funnel-outline"></ion-icon> Фильтрация</ion-button>
+    </ion-col>
   </ion-item>
 
-  <ion-button class="sign-up" expand="block" color="warning" size="large" fill="outline">Показать ещё 20</ion-button>
+  <!--  PRODUCT CARD-->
+  <ion-item class="product-cards" lines="none">
+    <div class="card-product">
+      <div class="image-card">
+        <img src="../../../assets/images/eat.png" alt="">
+      </div>
+      <h2 class="title-product-card">Куриный рулет с мангольдом и
+        жжеными сливками</h2>
+      <p class="type-product-card">Азиатский ресторан Novikov Group в «Москва-
+        сити»</p>
+
+      <ion-item class="bottom-product-card" lines="none">
+        <ion-col>
+          <p class="icon-card">
+            <span>10</span>
+            <ion-icon name="star"></ion-icon>
+          </p>
+        </ion-col>
+        <ion-col class="col-2-card">
+            <p class="price"><span>₽</span> 790</p>
+        </ion-col>
+        <ion-col class="category-product-card">
+          <ion-icon name="restaurant-outline"></ion-icon>
+          <p>Азиатская</p>
+        </ion-col>
+        <ion-col class="col-save"><ion-icon name="bookmark-outline"></ion-icon></ion-col>
+      </ion-item>
+    </div>
+  </ion-item>
+  <!-- ../  PRODUCT CARD-->
+<!--  PRODUCT CARD-->
+  <ion-item class="product-cards" lines="none">
+    <div class="card-product">
+      <div class="image-card">
+        <img src="../../../assets/images/eat.png" alt="">
+      </div>
+      <h2 class="title-product-card">Куриный рулет с мангольдом и
+        жжеными сливками</h2>
+      <p class="type-product-card">Азиатский ресторан Novikov Group в «Москва-
+        сити»</p>
+
+      <ion-item class="bottom-product-card" lines="none">
+        <ion-col>
+          <p class="icon-card">
+            <span>10</span>
+            <ion-icon name="star"></ion-icon>
+          </p>
+        </ion-col>
+        <ion-col class="col-2-card">
+          <p class="price"><span>₽</span> 790</p>
+        </ion-col>
+        <ion-col class="category-product-card">
+          <ion-icon name="restaurant-outline"></ion-icon>
+          <p>Азиатская</p>
+        </ion-col>
+        <ion-col class="col-save"><ion-icon name="bookmark-outline"></ion-icon></ion-col>
+      </ion-item>
+    </div>
+  </ion-item>
+  <!-- ../  PRODUCT CARD-->
+
   <div style="margin-top: 160px"></div>
   <app-tabbottom></app-tabbottom>
 </ion-content>

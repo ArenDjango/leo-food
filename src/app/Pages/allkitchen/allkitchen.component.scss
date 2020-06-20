@@ -133,8 +133,14 @@ ion-toolbar{
 .avatar{
   width: 115px;
 }
+
 .search-bar-top{
+  margin-left: 30px;
   width: 96%;
+  ion-button{
+    --box-shadow: none;
+
+  }
   //margin: 10px;
   --background: #0dca18;
   ion-searchbar{
@@ -171,6 +177,33 @@ ion-toolbar{
   height: 26px !important;
 }
 
+.top-btns{
+  width: 100%;
+  font-size: 50px;
+  ion-button{
+    background: #efeff0;
+    color: black;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 116px;
+    width: 95%;
+    --box-shadow: none;
+    ion-icon{
+      color: #0dca18;
+      font-size: 40px;
+      margin-right: 20px;
+    }
+  }
+  .first-btn{
+    margin-right: 17px;
+  }
+  .second-btn{
+    margin-left: 17px;
+  }
+
+}
 
 //PRODUCT CARD
 .product-cards{
@@ -179,23 +212,23 @@ ion-toolbar{
 .product-cards-title{
   margin-top: 50px;
 }
-.card{
+.card-product{
   width: 100%;
-  .xit-product-card{
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-weight: bold;
-    padding: 20px;
-    color: #fff;
-    display: block;
-    border-radius: 20px;
-    background: #0dca18;
-    font-size: 50px;
-  }
   .bottom-product-card{
     margin-left: -16px;
     margin-top: 25px;
+    width: 100%;
+    .col-2-card{
+      margin-left: 40px;
+    }
+    .col-save{
+      width: 50px;
+      margin-left: 65px;
+      ion-icon{
+        font-size: 50px;
+        color: #666666;
+      }
+    }
   }
   .image-card{
     width: 100%;
@@ -206,34 +239,44 @@ ion-toolbar{
   }
   .title-product-card{
     font-size: 50px;
-    margin-top: 10px;
+    margin-top: 14px;
     text-align: left;
+    font-weight: bold;
   }
   .type-product-card{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 10px;
     text-align: left;
+    color: #666666;
   }
-  .leftinfo-product{
 
+  .category-product-card{
+    font-size: 50px;
     display: flex;
+    margin-left: 45px;
     ion-icon{
+      margin-right: 10px;
       color: #666666;
-      font-size: 50px;
-      margin-right: 25px;
+    }
+  }
+  .icon-card{
+    color: #0dca18;
+    font-size: 50px;
+    ion-icon{
+      color: #0dca18;
+    }
+    span{
+      margin-right: 10px;
     }
   }
   .price{
     font-size: 50px;
-    color: #0dca18;
+    color: black;
     span{
       color: black;
-      font-weight: bold;
+      //font-weight: bold;
     }
   }
-  .size-product-card{
-    font-size: 50px;
-    text-align: right;
-  }
 }
+
 
