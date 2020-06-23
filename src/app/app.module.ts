@@ -21,6 +21,10 @@ import { SinglemenuComponent } from './Pages/singlemenu/singlemenu.component';
 import { SinglesalesComponent } from './Pages/singlesales/singlesales.component';
 import { SinglereviewsComponent } from './Pages/singlereviews/singlereviews.component';
 import { SinglewritereviewComponent } from './Pages/singlewritereview/singlewritereview.component';
+import { SinglesaleComponent } from './Pages/singlesale/singlesale.component';
+import { AllplacesComponent } from './Pages/allplaces/allplaces.component';
+import { OrderComponent } from './Pages/order/order.component';
+import { OrdersComponent } from './Pages/orders/orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +43,11 @@ import { SinglewritereviewComponent } from './Pages/singlewritereview/singlewrit
     SinglemenuComponent,
     SinglesalesComponent,
     SinglereviewsComponent,
-    SinglewritereviewComponent
+    SinglewritereviewComponent,
+    SinglesaleComponent,
+    AllplacesComponent,
+    OrderComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,

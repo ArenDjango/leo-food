@@ -1,0 +1,70 @@
+
+<ion-header class="header">
+  <ion-toolbar color="none">
+    <ion-item class="search-bar-top" lines="none">
+      <ion-col size="1">
+        <ion-button color="none" routerLink="/dashboard"><img src="../../../assets/images/icons/back.png" alt=""></ion-button>
+      </ion-col>
+      <ion-col size="9"><ion-searchbar placeholder="Поиск" showCancelButton="never"></ion-searchbar></ion-col>
+      <ion-col size="2"><img class="avatar" src="../../../assets/images/avatar.png" alt=""></ion-col>
+    </ion-item>
+    <app-menu></app-menu>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content class="section">
+  <div class="topImage">
+    <img src="../../../assets/images/slider.png" alt="">
+  </div>
+  <ion-list class="list-top">
+    <ion-item lines="none">
+      <ion-label>23.23.2020</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <h2>Караоке каждый день</h2>
+    </ion-item>
+    <ion-item lines="none">
+      <p>Уютное пространство, в котором могут
+        расположиться до 40 гостей, отлично
+        подойдет для проведения различных
+        мероприятий — дружеских вечеринок, дня
+        рождения, корпоратива, мальчишников,
+        девичников, а так же vip-комната до 10
+        гостей.
+
+        Вас ждет аудиосистема высокого класса,
+        профессиональные микрофоны,
+        концертная иллюминация и огромный
+        репертуар песен на любой вкус!</p>
+    </ion-item>
+  </ion-list>
+
+  <div class="line"></div>
+
+
+  <ion-list class="bottom-list">
+    <ion-item class="bottom-list-item" lines="none">
+      <ion-col size="3" class="image-col">
+        <img src="../../../assets/images/burder_king.png" alt="">
+      </ion-col>
+      <ion-col size="6" class="description-col">
+        <ion-list>
+          <ion-item lines="none"><p class="title">BurgerKing</p></ion-item>
+          <ion-item class="_padding" lines="none">
+            <ion-col><p class="star"><ion-icon name="star"></ion-icon>9.8</p></ion-col>
+            <ion-col><p class="price">₽ 750</p></ion-col>
+          </ion-item>
+          <ion-item class="_padding" lines="none">
+              <p class="desc-p"><ion-icon name="restaurant-outline"></ion-icon> Стритфуд, бургеры</p>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col size="3" class="arrow-col">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </ion-col>
+    </ion-item>
+  </ion-list>
+
+  <div style="margin-top: 160px"></div>
+  <app-tabbottom></app-tabbottom>
+</ion-content>

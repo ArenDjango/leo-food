@@ -1,0 +1,111 @@
+
+<ion-header class="header">
+  <ion-toolbar color="none">
+    <ion-item class="search-bar-top" lines="none">
+      <ion-col size="1">
+        <ion-button color="none" routerLink="/dashboard"><img src="../../../assets/images/icons/back.png" alt=""></ion-button>
+      </ion-col>
+      <ion-col size="9"><ion-searchbar placeholder="Поиск" showCancelButton="never"></ion-searchbar></ion-col>
+      <ion-col size="2"><img class="avatar" src="../../../assets/images/avatar.png" alt=""></ion-col>
+    </ion-item>
+    <app-menu></app-menu>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content class="section">
+
+  <ion-item class="top-btns" lines="none">
+    <ion-col>
+      <ion-button class="first-btn" color="none"><ion-icon name="filter"></ion-icon> Сортировка</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button class="second-btn" color="none"><ion-icon name="funnel-outline"></ion-icon> Фильтрация</ion-button>
+    </ion-col>
+  </ion-item>
+
+  <ion-item class="slder3">
+    <ion-slides [options]="config3">
+      <ion-slide class="slide-3">
+        <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+      </ion-slide>
+      <ion-slide class="slide-3">
+        <ion-button class="slide-3-btn" color="none"> Текст </ion-button>
+      </ion-slide>
+      <ion-slide class="slide-3">
+        <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+      </ion-slide>
+      <ion-slide class="slide-3">
+        <ion-button class="slide-3-btn" color="none">Азиатская (25)</ion-button>
+      </ion-slide>
+    </ion-slides>
+  </ion-item>
+
+  <ion-list style="margin-top: 40px;" class="bottom-list">
+    <ion-item class="bottom-list-item" lines="none">
+      <ion-col size="3" class="image-col">
+        <img src="../../../assets/images/burder_king.png" alt="">
+      </ion-col>
+      <ion-col size="6" class="description-col">
+        <ion-list>
+          <ion-item lines="none"><p class="title">BurgerKing</p></ion-item>
+          <ion-item class="_padding" lines="none">
+            <ion-col><p class="star"><ion-icon name="star"></ion-icon>9.8</p></ion-col>
+            <ion-col><p class="price">₽ 750</p></ion-col>
+          </ion-item>
+          <ion-item class="_padding" lines="none">
+            <p class="desc-p"><ion-icon name="restaurant-outline"></ion-icon> Стритфуд, бургеры</p>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col size="3" class="arrow-col">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </ion-col>
+    </ion-item>
+    <div class="line"></div>
+    <ion-item class="bottom-list-item" lines="none">
+      <ion-col size="3" class="image-col">
+        <img src="../../../assets/images/burder_king.png" alt="">
+      </ion-col>
+      <ion-col size="6" class="description-col">
+        <ion-list>
+          <ion-item lines="none"><p class="title">BurgerKing</p></ion-item>
+          <ion-item class="_padding" lines="none">
+            <ion-col><p class="star"><ion-icon name="star"></ion-icon>9.8</p></ion-col>
+            <ion-col><p class="price">₽ 750</p></ion-col>
+          </ion-item>
+          <ion-item class="_padding" lines="none">
+            <p class="desc-p"><ion-icon name="restaurant-outline"></ion-icon> Стритфуд, бургеры</p>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col size="3" class="arrow-col">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </ion-col>
+    </ion-item>
+    <div class="line"></div>
+    <ion-item class="bottom-list-item" lines="none">
+      <ion-col size="3" class="image-col">
+        <img src="../../../assets/images/burder_king.png" alt="">
+      </ion-col>
+      <ion-col size="6" class="description-col">
+        <ion-list>
+          <ion-item lines="none"><p class="title">BurgerKing</p></ion-item>
+          <ion-item class="_padding" lines="none">
+            <ion-col><p class="star"><ion-icon name="star"></ion-icon>9.8</p></ion-col>
+            <ion-col><p class="price">₽ 750</p></ion-col>
+          </ion-item>
+          <ion-item class="_padding" lines="none">
+            <p class="desc-p"><ion-icon name="restaurant-outline"></ion-icon> Стритфуд, бургеры</p>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+      <ion-col size="3" class="arrow-col">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </ion-col>
+    </ion-item>
+    <div class="line"></div>
+  </ion-list>
+
+  <div style="margin-top: 160px"></div>
+  <app-tabbottom></app-tabbottom>
+</ion-content>

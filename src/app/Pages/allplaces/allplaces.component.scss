@@ -1,0 +1,150 @@
+.header{
+  background-color: #0dca18;
+  height: 285px;
+}
+.section {
+  //--background: url('../../../assets/images/background.png');
+  --padding-bottom: 40px;
+  --padding-end: 40px;
+  --padding-start: 40px;
+  --padding-top: 155px;
+  //text-align: center;
+}
+ion-toolbar{
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  background: #0dca18;
+}
+.avatar{
+  width: 115px;
+}
+
+.search-bar-top{
+  width: 96%;
+  margin-left: 30px;
+  --background: #0dca18;
+  ion-button{
+    --box-shadow: none;
+
+  }
+  ion-searchbar{
+    --box-shadow: none;
+    --placeholder-color: #fff;
+    --placeholder-font-style: normal;
+    --placeholder-opacity: 1;
+    --icon-color: #fff;
+    transform: scale(2.8);
+    height: 170px;
+    margin: 0 auto;
+    width: 30%;
+
+    --background: #0ca814;
+    --border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+  }
+}
+
+.line{
+  margin: 30px 0;
+  width: 100%;
+  background: #666666;
+  height: 1px;
+}
+
+
+// Slider 3
+.slide-3{
+  //display: inline;
+  //width: 76%;
+}
+.slide-3{
+  display: inline;
+  width: auto;
+  margin-right: 42px !important;
+}
+.slder3{
+  margin-top: 50px;
+}
+.slide-3-btn {
+  height: 101px;
+  width: auto;
+  background: #0ca814;
+  border-radius: 20px;
+  font-size: 40px;
+}
+
+.top-btns{
+  width: 100%;
+  font-size: 50px;
+  ion-button{
+    background: #efeff0;
+    color: black;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 116px;
+    width: 95%;
+    --box-shadow: none;
+    ion-icon{
+      color: #0dca18;
+      font-size: 40px;
+      margin-right: 20px;
+    }
+  }
+  .first-btn{
+    margin-right: 17px;
+  }
+  .second-btn{
+    margin-left: 17px;
+  }
+
+}
+
+
+
+.bottom-list-item{
+  .image-col{
+    width: 211px;
+    img{
+      width: 211px;
+    }
+  }
+  .description-col{
+    ion-list{
+      ._padding{
+        padding-top: 20px;
+      }
+    }
+    .desc-p{
+      font-size: 36px;
+      color: #666666;
+      white-space: nowrap;
+    }
+    padding-left: 40px;
+    .title{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .star{
+      color: #0ca814;
+      font-size: 36px;
+      ion-icon{
+        color: #0ca814;
+      }
+    }
+    .price{
+      font-size: 36px;
+    }
+  }
+  .arrow-col{
+    ion-icon{
+      font-size: 50px;
+      color: #666666;
+      display: block;
+      margin-left: auto;
+    }
+  }
+}
