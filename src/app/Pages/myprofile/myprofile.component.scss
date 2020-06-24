@@ -1,0 +1,134 @@
+.header{
+  background-color: #0dca18;
+  height: 215px;
+}
+.section {
+  --padding-bottom: 40px;
+  --padding-end: 21px;
+  --padding-start: 21px;
+  --padding-top: 46px;
+}
+ion-toolbar{
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  background: #0dca18;
+}
+.toolbar-item{
+  width: 100%;
+  color: #fff;
+  .col-item-1{
+    ion-button{
+      --box-shadow: none;
+      font-size: 55px;
+      margin-left: 25px;
+    }
+  }
+  .col-item-2{
+    ion-title{
+      text-align: center;
+      font-size: 55px;
+    }
+  }
+  .col-item-3{
+    ion-icon{
+      text-align: right;
+      color: #fff;
+      font-size: 55px;
+      display: flex;
+      margin-left: auto;
+      margin-right: 25px;
+    }
+  }
+}
+
+.profile-image{
+  width: 100%;
+  img{
+    width: 401px;
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+.under-image{
+  width: 100%;
+  .profile-fio{
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+  }
+  .profile-point{
+    margin: 30px auto;
+    font-size: 40px;
+    color: #666666;
+    text-align: center;
+    ion-icon{
+      margin-right: 10px;
+    }
+  }
+}
+
+.user-gotodata{
+  margin: 45px 0;
+  p{
+    font-size: 50px;
+    font-weight: bold;
+    img{
+      margin-bottom: -5px;
+    }
+  }
+  ion-icon{
+    font-size: 50px;
+    display: flex;
+    margin-left: auto;
+    color: #666666;
+  }
+}
+
+.section-title{
+  font-size: 50px;
+  color: #666666;
+  text-indent: 25px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.like-place-item{
+  .title{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .item-2{
+    margin: 15px 0;
+    .point{
+      font-size: 50px;
+      color: #0ca814;
+    }
+    ion-icon{
+      margin-right: 10px;
+    }
+    .price{
+      font-size: 50px;
+    }
+  }
+  .item-3{
+    p{
+      font-size: 52px;
+    }
+    ion-icon{
+      font-size: 44px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.section-col-2{
+  padding-left: 19px;
+}
+
+.line{
+  margin: 24px auto;
+  width: 94%;
+  background: #666666;
+  height: 1px;
+}

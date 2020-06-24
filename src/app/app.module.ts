@@ -25,6 +25,7 @@ import { SinglesaleComponent } from './Pages/singlesale/singlesale.component';
 import { AllplacesComponent } from './Pages/allplaces/allplaces.component';
 import { OrderComponent } from './Pages/order/order.component';
 import { OrdersComponent } from './Pages/orders/orders.component';
+import { MyprofileComponent } from './Pages/myprofile/myprofile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +48,8 @@ import { OrdersComponent } from './Pages/orders/orders.component';
     SinglesaleComponent,
     AllplacesComponent,
     OrderComponent,
-    OrdersComponent
+    OrdersComponent,
+    MyprofileComponent
   ],
   imports: [
     BrowserModule,
