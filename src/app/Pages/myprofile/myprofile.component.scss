@@ -126,8 +126,16 @@ ion-toolbar{
   padding-left: 19px;
 }
 
+.circle-col{
+  .title{
+    font-size: 45px;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
 .line{
-  margin: 24px auto;
+  margin: 34px auto;
   width: 94%;
   background: #666666;
   height: 1px;

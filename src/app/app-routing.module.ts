@@ -19,6 +19,7 @@ import {AllplacesComponent} from './Pages/allplaces/allplaces.component';
 import {OrderComponent} from './Pages/order/order.component';
 import {OrdersComponent} from './Pages/orders/orders.component';
 import {MyprofileComponent} from './Pages/myprofile/myprofile.component';
+import {EditprofileComponent} from './Pages/editprofile/editprofile.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'order', component: OrderComponent},
   { path: 'my-orders', component: OrdersComponent},
   { path: 'my-profile', component: MyprofileComponent},
+  { path: 'edit-profile', component: EditprofileComponent},
 
   // Restourant single
   { path: 'single', component: SingleComponent},

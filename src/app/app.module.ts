@@ -26,6 +26,8 @@ import { AllplacesComponent } from './Pages/allplaces/allplaces.component';
 import { OrderComponent } from './Pages/order/order.component';
 import { OrdersComponent } from './Pages/orders/orders.component';
 import { MyprofileComponent } from './Pages/myprofile/myprofile.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { EditprofileComponent } from './Pages/editprofile/editprofile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,13 +51,20 @@ import { MyprofileComponent } from './Pages/myprofile/myprofile.component';
     AllplacesComponent,
     OrderComponent,
     OrdersComponent,
-    MyprofileComponent
+    MyprofileComponent,
+    EditprofileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgxUsefulSwiperModule,
-    IonicModule.forRoot()
+    IonicModule.forRoot(),
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      outerStrokeColor: '#78C000',
+      animationDuration: 300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

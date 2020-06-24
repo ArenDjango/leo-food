@@ -1,0 +1,141 @@
+<ion-header class="header">
+
+
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button routerLink="/single/reviews/write"><img src="../../../assets/images/icons/back.png" alt=""></ion-button>
+    </ion-buttons>
+    <ion-title size="large">
+      <p class="ion-title-p">Личные данные</p>
+    </ion-title>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content class="section">
+  <ion-item lines="none">
+    <ion-label class="label">
+      Ваш аватар
+    </ion-label>
+  </ion-item>
+
+  <ion-slides [options]="config">
+    <ion-slide>
+      <img src="../../../assets/images/avatar.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../../assets/images/avatar.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../../assets/images/avatar.png">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../../assets/images/avatar.png">
+    </ion-slide>
+  </ion-slides>
+  <div class="swiper-pagination"></div>
+
+  <div class="personal-data">
+    <p class="phone-number-p phone-number-password">Имя</p>
+    <ion-item class="password-item">
+      <ion-input placeholder="Имя" type="text"></ion-input>
+    </ion-item>
+    <p class="phone-number-p phone-number-password">Фамилия</p>
+    <ion-item class="password-item">
+      <ion-input placeholder="Фамилия" type="text"></ion-input>
+    </ion-item>
+    <p class="phone-number-p phone-number-password">Дата рождения</p>
+    <ion-item class="password-item">
+      <ion-input placeholder="Дата рождения" type="text"></ion-input>
+    </ion-item>
+
+    <ion-list class="list-radio">
+      <ion-radio-group value="male">
+        <ion-item class="radio-btn" lines="none">
+          <ion-label>Мужчина</ion-label>
+          <ion-radio slot="start" value="male"></ion-radio>
+        </ion-item>
+        <ion-item class="radio-btn" lines="none">
+          <ion-label>Женщина</ion-label>
+          <ion-radio style="font-size: 40px; color: red;" slot="start" value="female"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+
+    <p class="phone-number-p phone-number-p-top">Номер телефона</p>
+    <ion-item class="phone-item">
+      <ion-col size=1>
+        <p>+</p>
+      </ion-col>
+      <ion-col  size=2>
+        <ion-select style="margin-right: -10px" value="7">
+          <ion-select-option value="7"> 7
+          </ion-select-option>
+          <ion-select-option value="111"> 111
+          </ion-select-option>
+        </ion-select>
+      </ion-col>
+      <ion-col size=9>
+        <ion-input></ion-input>
+      </ion-col>
+    </ion-item>
+
+    <div class="adress-section">
+      <p class="label">
+        Адрес доставки
+      </p>
+      <p class="label">Страна</p>
+      <div class="select-item">
+        <ion-select value="1">
+          <ion-select-option value="1"> Российская Федерация
+          </ion-select-option>
+          <ion-select-option value="2"> США
+          </ion-select-option>
+        </ion-select>
+      </div>
+      <ion-item></ion-item>
+      <p class="label">Область</p>
+      <div class="select-item">
+        <ion-select value="1" >
+          <ion-select-option value="1"> Московская
+          </ion-select-option>
+          <ion-select-option value="2"> СПТ
+          </ion-select-option>
+        </ion-select>
+      </div>
+      <ion-item></ion-item>
+      <p class="label">Город</p>
+      <div class="select-item">
+        <ion-select value="1" placeholder="Выберите город">
+          <ion-select-option value="1"> Выберите город
+          </ion-select-option>
+          <ion-select-option value="2"> СПТ
+          </ion-select-option>
+        </ion-select>
+      </div>
+      <ion-item></ion-item>
+      <div>
+        <p class="label">Адрес</p>
+        <ion-item class="password-item">
+          <ion-input placeholder="Введите вдрес" type="text"></ion-input>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-col class="input-col"><p class="label">Дом</p><ion-input placeholder="№ Дома" type="text"></ion-input></ion-col>
+          <ion-col class="input-col"><p class="label">Подъезд</p><ion-input placeholder="№ Подъезда" type="text"></ion-input></ion-col>
+        </ion-item>
+      </div>
+    </div>
+
+    <div class="password-section">
+      <p class="phone-number-p phone-number-password">Пароль</p>
+      <ion-item class="password-item">
+        <ion-input placeholder="Введите новый пароль" type="password"></ion-input>
+      </ion-item>
+      <p class="phone-number-p phone-number-password">Пароль</p>
+      <ion-item class="password-item">
+        <ion-input placeholder="Введите новый пароль снова" type="password"></ion-input>
+      </ion-item>
+    </div>
+  </div>
+  <ion-button class="sign-up" expand="block" color="none" size="large">СОХРАНИТЬ ИЗМЕНЕНИЕ </ion-button>
+
+</ion-content>

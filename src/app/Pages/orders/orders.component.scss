@@ -4,9 +4,9 @@
 }
 .section {
   --padding-bottom: 40px;
-  --padding-end: 21px;
-  --padding-start: 21px;
-  --padding-top: 46px;
+  --padding-end: 218px;
+  --padding-start: 218px;
+  --padding-top: 359px;
 }
 ion-toolbar{
   position: fixed;
@@ -180,15 +180,6 @@ ion-toolbar{
   }
 }
 
-.sign-up{
-  color: #fff;
-  background: #ed9200;
-  margin: 50px 25px 74px 25px;
-  font-size: 41px;
-  height: 130px;
-  border-radius: 19px;
-}
-
 .top-item{
   width: 100%;
   .top-item-col-1{
@@ -226,3 +217,34 @@ ion-toolbar{
 }
 
 
+.empty{
+  width: 100%;
+  h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  p{
+    font-size: 38px;
+    text-align: center;
+  }
+  .image-empty{
+    width: 100%;
+    img{
+      display: block;
+      width: 319px;
+      margin: 0 auto;
+    }
+  }
+  .btn-rmpty{
+    color: #ee980e;
+    border-color: #ee980e;
+    font-size: 41px;
+    height: 130px;
+    --border-radius: 17px;
+    --border-width: 7px;
+    width: 479px;
+    margin: 200px auto;
+  }
+}

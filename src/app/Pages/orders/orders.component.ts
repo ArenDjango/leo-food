@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdersComponent implements OnInit {
 
-  orders = [{id: 1, open: 'close'}, {id: 2, open: 'close'}, {id: 3, open: 'close'}];
-
+  // orders = [{id: 1, open: 'close'}, {id: 2, open: 'close'}, {id: 3, open: 'close'}];
+  orders = [];
   constructor() { }
 
   ngOnInit(): void {

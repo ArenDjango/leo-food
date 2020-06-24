@@ -7,7 +7,7 @@
   </ion-toolbar>
 
 </ion-header>
-<ion-content class="section">
+<ion-content *ngIf="orders.length > 0" class="section">
   <p class="order-title">Заказ №34534</p>
 
 <div *ngFor="let order of orders">
@@ -68,6 +68,21 @@
 
 
 
+  <div style="margin-top: 160px"></div>
+  <app-tabbottom></app-tabbottom>
+</ion-content>
+
+<ion-content *ngIf="orders.length === 0" class="section">
+  <div class="empty">
+    <div class="image-empty">
+      <img src="../../../assets/images/empty.png" alt="">
+    </div>
+    <h2>История заказов пуста</h2>
+    <p>Для того, чтобы это исправить,
+      сделайте ваш первый заказ
+      на экране «Меню»</p>
+    <ion-button routerLink="/enter-phone-number" class="btn-rmpty" expand="block" color="none" size="large" fill="outline">МЕНЮ</ion-button>
+  </div>
   <div style="margin-top: 160px"></div>
   <app-tabbottom></app-tabbottom>
 </ion-content>
